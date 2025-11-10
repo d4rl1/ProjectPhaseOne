@@ -1,0 +1,17 @@
+root{
+    --text : #000000;
+    --nav: #ffadc6;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.wrapper{
+    width: 80%;
+}
+header{
+    background-color: var(--nav);
+    position: sticky;
+}
