@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta  name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta  name="description" content="">
+    <meta  name="description" content="Shop Homepage">
     <meta name="robots" content="noindex, nofollow">
-    <title>Document</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,24 +15,68 @@
 <body>
     <header>
         <div class="wrapper">
-            <section class="header">
-                <img src="" alt="Logo">
+            <section class="header-content">
+                <div class="logo">
+                    <img src="img/logo.png" alt="Logo" class="nav-logo">
+                    <p class="logo-text">Skate Shop</p>
+                </div>
                 <nav>
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Shop</a></li>
-                        <li><a href="">Contact</a></li>
+                    <ul class="nav-menu">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./shop.html">Shop</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </section>
         </div>
     </header>
     <main>
-        <section>
-
+        <section class="hero">
+            <div class="overlay">
+                <div class="wrapper">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Shred Without Limits</h1>
+                        <p>Premium skateboards built for street warriors and park destroyers. Every board is crafted with pro-level components and designed to push your limits.</p>
+                        <a class="home-cta-button" href=./shop.html>Shop Collection</a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footer">
+            <div class="wrapper">
+                <section class="footer-content">
+                    <div class="footer-logo footer-child">
+                        <div class="footer-logo">
+                            <div class="logo">
+                                <img src="img/logo.png" alt="Logo" class="nav-logo">
+                                <p class="logo-text">Skate Shop</p>
+                            </div>
+                            <p>Premium skateboards and accessories for street riders and park shredders. Built by skaters, for skaters since 2015.</p>
+                        </div>
+                    </div>
+                    <div class="footer-nav footer-child">
+                        <p class="footer-highlight">Quick Link</p>
+                        <ul class="nav-menu-footer">
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="">Shop</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-info footer-child">
+                        <p class="footer-highlight">Contact Info</p>
+                        <ul>
+                            <li>456 Skate Street, Los Angeles, CA 90012</li>
+                            <li>(555) 987-6543</li>
+                            <li>info@urbanshred.com</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
