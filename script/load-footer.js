@@ -1,5 +1,5 @@
 document.getElementById("footer").innerHTML = `
-    <footer>
+ <footer>
         <div class="footer">
             <div class="wrapper">
                 <section class="footer-content">
@@ -17,8 +17,8 @@ document.getElementById("footer").innerHTML = `
                         <ul class="nav-menu-footer">
                             <li><a href="./index.html">Home</a></li>
                             <li><a href="./about.html">About</a></li>
-                            <li><a href="">Shop</a></li>
-                            <li><a href="">Contact</a></li>
+                            <li><a href="./shop.html">Shop</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
                         </ul>
                     </div>
                     <div class="contact-info footer-child">
